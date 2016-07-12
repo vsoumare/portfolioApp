@@ -2,7 +2,170 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.twitter{
-background-image: url(https://www.dropbox.com/s/gy2zkplz97llgxc/twitter-logo-silhouette.png?dl=0);
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 0 20px 0 100px;
+    width: 100%;
+}
+
+.menu ul {
+    list-style: none;
+    padding-left: 0;
+}
+.menu li {
+    display: inline;
+    line-height: 100px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100px;
+    height: 100px;
+    margin: 0 20px 0 0;
+}
+.menu li a {
+    color: #000;
+}
+
+.name h1 {
+    color: #000;
+    font-size: 18px;
+    line-height: 100px;
+    height: 100px;
+    margin: 0;
+    text-align: right;
+}
+
+
+
+
+
+.main {
+    width: 100%;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+element.style {
+}
+.home .jumbotron {
+    background: url(https://s3.amazonaws.com/infinum.web.production/repository_items/files/000/000/523/medium/infinum_best_ruby_on_rails_refactoring_talks_cr.png?1437459091) center center;
+    background-size: cover;
+    min-height: 600px;
+    width: 100%;
+}
+.main .container {
+    margin: 80px 0;
+}
+.home h2 {
+    color: #fff;
+}
+.main h2 {
+    color: #000;
+    font-size: 48px;
+    line-height: 56px;
+    text-align: right;
+}
+.highlight {
+    background-color: #eaeff4;
+    color: #000;
+    padding: 0 10px 0;
+}
+
+a.btn {
+    background-color: rgba(0,0,0,0.9);
+    border-radius: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 100;
+    height: 60px;
+    line-height: 60px;
+    margin: 40px 0;
+    padding: 0;
+    transition: background-color .5s;
+    width: 200px;
+}
+
+.right {
+    float: right;
+}
+
+
+
+
+
+.footer {
+    background-color: #fff;
+    height: 200px;
+    text-align: right;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding: 0 20px 0 100px;
+    width: 100%;
+}
+.footer .social_media {
+    margin: 65px 0 20px;
+    width: 100%;
+}
+* {
+    padding: 0;
+}
+.social_media li {
+    display: inline-block;
+    height: 24px;
+    margin: 0 0 0 10px;
+    text-align: left;
+    
+    width: 24px;
+}
+
+.social_media li a {
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+
+.github {
+    background-image: url(/assets/github-edc899c60c7b3afd0c458e648197f578.svg);
     background-position: center center;
+    
+}
+.social_media li a {
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+.linkedin {
+    background-image: url(/assets/linkedin-be22eb82414f9f637debbe2d64c301cb.svg);
+    background-position: center center;
+}
+.social_media li a {
+    display: block;
+    height: 24px;
+    width: 24px;
+}
+.twitter {
+    background-image: url(/assets/twitter-8c095eaee58362a46d56e3f07b50b23b.svg);
+    background-position: center center;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+a {
+    background-color: transparent;
+}
+* {
+    margin: 0;
+    padding: 0;
 }
